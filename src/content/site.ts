@@ -7,9 +7,9 @@ export const siteConfig: SiteConfig = {
   tagline: 'AI/ML • Full-Stack • Embedded',
   about: 'I\'m a software engineer who thrives on building elegant solutions. I leverage a diverse array of technologies and tools to solve problems at hand. I have worked with many teams, small and large, across the globe to solve some of the most complex challenges in tech.',
   social: {
-    linkedin: 'https://linkedin.com/in/vikram',
-    github: 'https://github.com/vikram',
-    email: 'hello@vikram.dev'
+    linkedin: 'https://www.linkedin.com/in/vikramthevar/',
+    github: 'https://github.com/vikthevar',
+    email: 'vikthevar@gmail.com'
   },
   posts: [
     {
@@ -28,5 +28,5 @@ export const siteConfig: SiteConfig = {
     'Architected microservices infrastructure reducing latency by 40%',
     'Mentored junior engineers and drove technical excellence'
   ],
-  resumeUrl: '/resume.pdf'
+  resumeUrl: '/VikramThevarResume.pdf'
 }

@@ -12,7 +12,7 @@ import { siteConfig } from '@/content/site'
       <h1 class="text-2xl mb-4">
         Hey 👋, I'm <ScrambleText :texts="[siteConfig.fullName, siteConfig.shortName]" />
       </h1>
-      <p class="text-sm text-gray-400 leading-relaxed">
+      <p class="text-sm text-gray-400 leading-relaxed whitespace-pre-line">
         {{ siteConfig.about }}
       </p>
     </section>

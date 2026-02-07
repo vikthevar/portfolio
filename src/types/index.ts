@@ -9,12 +9,17 @@ export interface SiteConfig {
     github: string
     email: string
   }
-  posts: Array<{
+  projectHighlights: Array<{
     title: string
-    date: string
+    description: string
+    tech: string[]
+    link?: string
+  }>
+  latestReads: Array<{
+    title: string
+    type: 'book' | 'article'
     url: string
   }>
-  highlights: string[]
   resumeUrl: string
 }
 

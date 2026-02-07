@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply antialiased;
+    font-family: 'JetBrains Mono', monospace;
   }
   
   a {

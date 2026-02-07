@@ -57,7 +57,7 @@ const scramble = () => {
         timeoutId = window.setTimeout(() => {
           currentIndex.value = (currentIndex.value + 1) % props.texts.length
           scramble()
-        }, 1500)
+        }, 800)
       }
     }
   }, props.speed)

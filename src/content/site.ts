@@ -11,22 +11,34 @@ export const siteConfig: SiteConfig = {
     github: 'https://github.com/vikthevar',
     email: 'vikthevar@gmail.com'
   },
-  posts: [
+  projectHighlights: [
     {
-      title: 'Building Scalable Systems with Vue 3',
-      date: '15 Jan 2026',
-      url: '#'
+      title: 'F1 Qualifying Predictor',
+      description: 'ML model achieving R² = 0.94 on lap time prediction via feature engineering and hyperparameter tuning',
+      tech: ['Python', 'scikit-learn', 'GridSearchCV']
     },
     {
-      title: 'TypeScript Best Practices for Large Codebases',
-      date: '03 Dec 2025',
-      url: '#'
+      title: 'ReThread Extension',
+      description: 'Gemini Vision-powered reverse image search with 85% product matching accuracy',
+      tech: ['JavaScript', 'Gemini Vision', 'Chrome APIs']
+    },
+    {
+      title: 'VisionAssist Wearable',
+      description: 'Real-time obstacle detection system with 95% accuracy and sub-200ms latency',
+      tech: ['Python', 'Raspberry Pi', 'Sensor Fusion']
     }
   ],
-  highlights: [
-    'Led development of cloud-native applications serving 100K+ users',
-    'Architected microservices infrastructure reducing latency by 40%',
-    'Mentored junior engineers and drove technical excellence'
+  latestReads: [
+    {
+      title: 'Designing Data-Intensive Applications',
+      type: 'book',
+      url: 'https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/'
+    },
+    {
+      title: 'The Pragmatic Programmer',
+      type: 'book',
+      url: 'https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/'
+    }
   ],
   resumeUrl: '/VikramThevarResume.pdf'
 }

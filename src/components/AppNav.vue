@@ -4,7 +4,7 @@
 <template>
   <nav class="border-b border-gray-800">
     <div class="max-w-[900px] mx-auto px-6 py-4">
-      <div class="flex gap-6 text-sm">
+      <div class="flex justify-end gap-6 text-sm">
         <router-link 
           to="/" 
           class="text-gray-400 hover:text-gray-100 transition-colors"
@@ -19,13 +19,14 @@
         >
           Projects
         </router-link>
-        <router-link 
-          to="/resume" 
+        <a 
+          href="/VikramThevarResume.pdf" 
+          target="_blank"
+          rel="noopener noreferrer"
           class="text-gray-400 hover:text-gray-100 transition-colors"
-          active-class="text-gray-100 border-b-2 border-blue-500 pb-1"
         >
           Resume
-        </router-link>
+        </a>
       </div>
     </div>
   </nav>

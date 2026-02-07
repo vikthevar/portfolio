@@ -23,25 +23,33 @@ import { siteConfig } from '@/content/site'
       <SocialLinks :links="siteConfig.social" />
     </section>
 
-    <!-- Posts Section -->
-    <section v-if="siteConfig.posts.length" class="mb-16">
-      <h2 class="text-sm font-medium text-gray-400 mb-4">Posts</h2>
-      <div class="space-y-3">
-        <div v-for="post in siteConfig.posts" :key="post.title" class="border-l-2 border-gray-800 pl-4">
-          <p class="text-xs text-gray-500">{{ post.date }}</p>
-          <a :href="post.url" class="text-sm text-gray-300 hover:text-gray-100 transition-colors">
-            {{ post.title }}
-          </a>
+    <!-- Project Highlights Section -->
+    <section v-if="siteConfig.projectHighlights.length" class="mb-16">
+      <h2 class="text-sm font-medium text-gray-400 mb-4">Project Highlights</h2>
+      <div class="space-y-4">
+        <div v-for="project in siteConfig.projectHighlights" :key="project.title" class="border-l-2 border-gray-800 pl-4">
+          <h3 class="text-sm text-gray-300 font-medium mb-1">{{ project.title }}</h3>
+          <p class="text-xs text-gray-500 mb-2">{{ project.description }}</p>
+          <div class="flex flex-wrap gap-2">
+            <span 
+              v-for="tech in project.tech" 
+              :key="tech" 
+              class="text-xs px-2 py-1 bg-gray-800 text-gray-400 rounded"
+            >
+              {{ tech }}
+            </span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Highlights Section -->
-    <section v-if="siteConfig.highlights.length" class="mb-16">
-      <h2 class="text-sm font-medium text-gray-400 mb-4">Work Highlights</h2>
+    <!-- Latest Reads Section -->
+    <section v-if="siteConfig.latestReads.length" class="mb-16">
+      <h2 class="text-sm font-medium text-gray-400 mb-4">Latest Reads</h2>
       <ul class="space-y-2">
-        <li v-for="highlight in siteConfig.highlights" :key="highlight" class="text-sm text-gray-400 leading-relaxed">
-          • {{ highlight }}
+        <li v-for="read in siteConfig.latestReads" :key="read.title" class="text-sm text-gray-400 leading-relaxed">
+          • <a :href="read.url" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition-colors">{{ read.title }}</a>
+          <span class="text-gray-600 text-xs ml-2">({{ read.type }})</span>
         </li>
       </ul>
     </section>
@@ -50,9 +58,10 @@ import { siteConfig } from '@/content/site'
     <section>
       <h2 class="text-sm font-medium text-gray-400 mb-3">Let's Connect</h2>
       <p class="text-sm text-gray-400">
-        Feel free to reach out. Shoot me an 
+        Shoot me an 
         <a :href="`mailto:${siteConfig.social.email}`" class="text-blue-400 hover:text-blue-300 transition-colors">email</a>
-        or schedule a call.
+        or message on 
+        <a :href="siteConfig.social.linkedin" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition-colors">LinkedIn</a>.
       </p>
     </section>
   </DefaultLayout>

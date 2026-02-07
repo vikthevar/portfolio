@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['JetBrains Mono', 'monospace'],
+      },
       colors: {
         dark: {
           bg: '#0b0f14',

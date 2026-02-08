@@ -30,25 +30,25 @@ export const siteConfig: SiteConfig = {
   ],
   latestReads: [
     {
-      title: 'Crime and Punishment' + ' - curiosity read',
+      title: 'Crime and Punishment - curiosity read',
       type: 'book',
       url: 'https://www.goodreads.com/book/show/7144.Crime_and_Punishment'
     },
     {
-      title: 'The Nvidia Way: Jensen Huang and the Making of a Tech Giant' + ' - stubbornness and obsession',
+      title: 'The Nvidia Way: Jensen Huang and the Making of a Tech Giant - stubbornness and obsession',
       type: 'book',
       url: 'https://www.goodreads.com/book/show/218319936-the-nvidia-way'
     },
     {
-      title: 'Nine Tomorrows',
+      title: 'Nine Tomorrows - we can\'t predict the future',
       type: 'book',
-      url: 'https://www.goodreads.com/book/show/724666.Nine_Tomorrows' + ' - we can\'t predict the future',
+      url: 'https://www.goodreads.com/book/show/724666.Nine_Tomorrows'
     },
     {
-      title: 'Volkswagen Golf GTI MK7: 7 Common Problems and Prevention Tips' + ' - doing my homework',
+      title: 'Volkswagen Golf GTI MK7: 7 Common Problems and Prevention Tips - doing my homework',
       type: 'article',
       url: 'https://southsideeuro.com/blog/volkswagen-golf-gti-mk7-common-problems-what-owners-should-know-before-repairs-get-costly/'
-    },
+    }
   ],
   resumeUrl: '/VikramThevarResume.pdf'
 }

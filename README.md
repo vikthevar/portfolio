@@ -2,22 +2,11 @@
 
 A condensed, dark, minimal portfolio built with Vue 3, TypeScript, and Tailwind CSS.
 
-## Features
-
-- 🎨 Dark, minimal design with clean typography
-- ⚡ Vue 3 + Vite for fast development
-- 🎯 TypeScript for type safety
-- 🎭 Scramble text effect on name
-- 📱 Fully responsive design
-- ♿ Keyboard accessible navigation
-- 🎨 Tailwind CSS for styling
-
 ## Tech Stack
 
-- **Framework**: Vue 3 (Composition API)
+- **Framework**: Vue 3 
 - **Build Tool**: Vite
 - **Language**: TypeScript
-- **Routing**: Vue Router 4
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide Vue Next
 

@@ -1,0 +1,25 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- V letter - staggered up -->
+  <text
+    x="4"
+    y="22"
+    font-family="JetBrains Mono, monospace"
+    font-size="24"
+    font-weight="600"
+    fill="#e5e7eb"
+  >
+    V
+  </text>
+  
+  <!-- T letter - staggered down -->
+  <text
+    x="18"
+    y="28"
+    font-family="JetBrains Mono, monospace"
+    font-size="24"
+    font-weight="600"
+    fill="#e5e7eb"
+  >
+    T
+  </text>
+</svg>

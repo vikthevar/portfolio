@@ -10,7 +10,7 @@ const currentYear = computed(() => new Date().getFullYear())
       <p class="text-xs text-gray-500">
         © {{ currentYear }} • 
         <a 
-          href="https://github.com/vikthevar/portfolio2026" 
+          href="https://github.com/vikthevar/portfolio" 
           target="_blank" 
           rel="noopener noreferrer"
           class="text-blue-400 hover:text-blue-300 transition-colors"

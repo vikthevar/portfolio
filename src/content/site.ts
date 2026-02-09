@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   fullName: 'Vikram',
   shortName: 'Vik',
   tagline: 'AI/ML • Full-Stack • Embedded',
-  about: 'I\'m a software engineer and CS student at Arizona State University who enjoys building production grade systems across backend infrastructure, ML, and user-facing products. I like working end to end and shipping things that get used.\n\nOutside of tech, I\'m usually listening to music, keeping up with fashion, playing basketball, or working on my car.',
+  about: 'I\'m a software engineer and CS student at Arizona State University who enjoys building production grade systems across backend infrastructure, ML, and user-facing products. I like working end to end and shipping things that get used.\n\nOutside of tech, I enjoy basketball, cars, fashion, and music.',
   social: {
     linkedin: 'https://www.linkedin.com/in/vikramthevar/',
     github: 'https://github.com/vikthevar',

@@ -1,6 +1,4 @@
-# Vue Portfolio
-
-A condensed, dark, minimal portfolio built with Vue 3, TypeScript, and Tailwind CSS.
+[# Vue Portfolio](https://vikthevar.vercel.app/)
 
 ## Tech Stack
 
@@ -9,61 +7,6 @@ A condensed, dark, minimal portfolio built with Vue 3, TypeScript, and Tailwind 
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide Vue Next
-
-## Getting Started
-
-### Installation
-
-```bash
-npm install
-```
-
-### Development
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Customization
-
-### Personal Information
-
-Edit `src/content/site.ts` to update:
-- Name and tagline
-- About text
-- Social links (LinkedIn, GitHub, Email)
-- Posts list
-- Work highlights
-- Resume URL
-
-### Projects
-
-Edit `src/content/projects.ts` to add/modify projects:
-- Title and description
-- Tech stack
-- GitHub and live demo links
-
-### Resume
-
-Replace `public/resume.pdf` with your own resume PDF.
-
-### Styling
-
-Modify Tailwind classes in components or update `tailwind.config.js` for theme changes.
 
 ## Project Structure
 
@@ -92,14 +35,6 @@ vue-portfolio/
 - **Home** (`/`) - Introduction, about, posts, and highlights
 - **Projects** (`/projects`) - Project showcase
 - **Resume** (`/resume`) - Resume with download option
-
-## Components
-
-- **ScrambleText** - Animated text scramble effect
-- **SocialLinks** - Social media icon links
-- **AppNav** - Top navigation with active states
-- **AppFooter** - Simple footer
-- **DefaultLayout** - Main layout wrapper
 
 ## License
 
